@@ -221,8 +221,8 @@ namespace InventorySystem.UI
 					else currentInventoryItems.Sort((it1, it2) => it2.item.basePrice.CompareTo(it1.item.basePrice));
 					break;
 				case SortingType.Rarity:
-					if (Inventory.selectedAscendingValue) currentInventoryItems.Sort((it1, it2) => Compare(it1.item.rarity.ToString(), it2.item.rarity.ToString(), StringComparison.Ordinal));
-					else currentInventoryItems.Sort((it1, it2) => Compare(it2.item.rarity.ToString(), it1.item.rarity.ToString(), StringComparison.Ordinal));
+					if (Inventory.selectedAscendingValue) currentInventoryItems.Sort((it1, it2) => Convert.ToInt32(it1.item.rarity).CompareTo(Convert.ToInt32(it2.item.rarity)));
+					else currentInventoryItems.Sort((it1, it2) => Convert.ToInt32(it2.item.rarity).CompareTo(Convert.ToInt32(it1.item.rarity)));
 					break;
 				case SortingType.Weight:
 					if (Inventory.selectedAscendingValue) currentInventoryItems.Sort((it1, it2) => it1.item.weight.CompareTo(it2.item.weight));

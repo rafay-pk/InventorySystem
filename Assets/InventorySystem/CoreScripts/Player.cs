@@ -1,4 +1,5 @@
-﻿using InventorySystem.DataModels;
+﻿using System;
+using InventorySystem.DataModels;
 using InventorySystem.Extensions;
 using UnityEngine;
 
@@ -6,7 +7,7 @@ namespace InventorySystem.CoreScripts
 {
 	public class Player : PersistentMonoBehaviour
 	{
-		public Inventory inventory;
+		[NonSerialized] public Inventory inventory;
 		
 		public Weapon equippedWeapon;
 		public Armor equippedArmor;

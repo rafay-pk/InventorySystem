@@ -5,39 +5,13 @@
     "inventoryItems": [
         {
             "item": {
-                "name": "Wooden Sword",
-                "description": "A humble sword crafted from sturdy oak, perfect for novice adventurers.",
-                "sprite": {
-                    "instanceID": 30990
-                },
-                "rarity": 0,
-                "weight": 2.0,
-                "basePrice": 5.0,
-                "isQuestItem": true
-            },
-            "count": 25
-        },
-        {
-            "item": {
-                "name": "Steel Armor",
-                "description": "Imposing and resilient, this steel armor offers substantial protection on the battlefield.",
-                "sprite": {
-                    "instanceID": 29304
-                },
-                "rarity": 1,
-                "weight": 15.0,
-                "basePrice": 50.0,
-                "isQuestItem": false
-            },
-            "count": 2
-        },
-        {
-            "item": {
                 "name": "Health Potion",
                 "description": "A basic potion that restores 10 Health Points",
                 "sprite": {
-                    "instanceID": 30682
+                    "instanceID": 29322
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_106",
                 "rarity": 0,
                 "weight": 1.0,
                 "basePrice": 10.0,
@@ -50,8 +24,10 @@
                 "name": "Mana Potion",
                 "description": "A basic potion that restores 10 Mana Points",
                 "sprite": {
-                    "instanceID": 31098
+                    "instanceID": 29330
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_107",
                 "rarity": 0,
                 "weight": 1.0,
                 "basePrice": 10.0,
@@ -64,8 +40,10 @@
                 "name": "Stamina Potion",
                 "description": "A basic potion that restores 10 Stamina Points",
                 "sprite": {
-                    "instanceID": 31100
+                    "instanceID": 29326
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_108",
                 "rarity": 0,
                 "weight": 1.0,
                 "basePrice": 10.0,
@@ -78,8 +56,10 @@
                 "name": "Super Health Potion",
                 "description": "An elixir of extraordinary potency, capable of restoring a substantial 50 Health Points",
                 "sprite": {
-                    "instanceID": 31104
+                    "instanceID": 29324
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_110",
                 "rarity": 2,
                 "weight": 1.0,
                 "basePrice": 30.0,
@@ -92,8 +72,10 @@
                 "name": "Super Mana Potion",
                 "description": "An elixir of extraordinary potency, capable of restoring a substantial 50 Mana Points",
                 "sprite": {
-                    "instanceID": 31106
+                    "instanceID": 29332
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_111",
                 "rarity": 2,
                 "weight": 1.0,
                 "basePrice": 30.0,
@@ -106,8 +88,10 @@
                 "name": "Super Stamina Potion",
                 "description": "An elixir of extraordinary potency, capable of restoring a substantial 50 Stamina Points",
                 "sprite": {
-                    "instanceID": 31108
+                    "instanceID": 29328
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_112",
                 "rarity": 2,
                 "weight": 1.0,
                 "basePrice": 30.0,
@@ -117,11 +101,29 @@
         },
         {
             "item": {
+                "name": "Wooden Sword",
+                "description": "A humble sword crafted from sturdy oak, perfect for novice adventurers.",
+                "sprite": {
+                    "instanceID": 29334
+                },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_48",
+                "rarity": 0,
+                "weight": 2.0,
+                "basePrice": 5.0,
+                "isQuestItem": false
+            },
+            "count": 10
+        },
+        {
+            "item": {
                 "name": "Steel Sword",
                 "description": "A finely forged sword made of high-quality steel, capable of slicing through foes with ease.",
                 "sprite": {
-                    "instanceID": 29302
+                    "instanceID": 29336
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_49",
                 "rarity": 1,
                 "weight": 3.0,
                 "basePrice": 25.0,
@@ -134,14 +136,32 @@
                 "name": "Leather Armor",
                 "description": "Sturdy and flexible, this leather armor provides basic protection without compromising mobility.",
                 "sprite": {
-                    "instanceID": 31054
+                    "instanceID": 29338
                 },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_82",
                 "rarity": 0,
                 "weight": 5.0,
                 "basePrice": 15.0,
                 "isQuestItem": false
             },
             "count": 2
+        },
+        {
+            "item": {
+                "name": "Steel Armor",
+                "description": "Imposing and resilient, this steel armor offers substantial protection on the battlefield.",
+                "sprite": {
+                    "instanceID": 29340
+                },
+                "spriteAssetPath": "Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop Shadow.png",
+                "spriteName": "#2 - Transparent Icons & Drop Shadow_83",
+                "rarity": 1,
+                "weight": 15.0,
+                "basePrice": 50.0,
+                "isQuestItem": false
+            },
+            "count": 1
         }
     ]
 }

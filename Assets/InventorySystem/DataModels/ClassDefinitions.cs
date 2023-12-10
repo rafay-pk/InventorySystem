@@ -10,6 +10,8 @@ namespace InventorySystem.DataModels
 		public string name;
 		public string description;
 		public Sprite sprite;
+		public string spriteAssetPath;
+		public string spriteName;
 		public Rarity rarity;
 		public float weight;
 		public float basePrice;
@@ -28,7 +30,7 @@ namespace InventorySystem.DataModels
 
 		public virtual InventoryResponse Use(Player player) => new();
 	}
-
+	
 	public enum Rarity
 	{
 		Common,

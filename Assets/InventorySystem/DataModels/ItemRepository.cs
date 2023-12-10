@@ -1,5 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace InventorySystem.DataModels
 {
@@ -9,7 +13,34 @@ namespace InventorySystem.DataModels
 		[SerializeField] private List<Potion> potions;
 		[SerializeField] private List<Weapon> weapons;
 		[SerializeField] private List<Armor> armors;
+		
+		private void Awake()
+		{
+			potions.ForEach(LoadSprite);
+			weapons.ForEach(LoadSprite);
+			armors.ForEach(LoadSprite);
+		}
+		private static void LoadSprite(Item item)
+		{
+			if (!string.IsNullOrEmpty(item.spriteAssetPath))
+				item.sprite = Resources.LoadAll<Sprite>(item.spriteAssetPath)
+					.FirstOrDefault(s => s.name == item.spriteName);
+		}
 
+		#if UNITY_EDITOR
+		private void OnValidate()
+		{
+			potions.ForEach(SetSpriteName);
+			weapons.ForEach(SetSpriteName);
+			armors.ForEach(SetSpriteName);
+		}
+		private static void SetSpriteName(Item item)
+		{
+			item.spriteName = item.sprite.name;
+			item.spriteAssetPath = AssetDatabase.GetAssetPath(item.sprite);
+		}
+		#endif
+		
 		#region Space Optimized Version
 		public Item GetItem(string itemName)
 		{

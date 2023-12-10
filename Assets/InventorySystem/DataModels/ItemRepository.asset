@@ -16,6 +16,9 @@ MonoBehaviour:
   - name: Health Potion
     description: A basic potion that restores 10 Health Points
     sprite: {fileID: 86125424, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_106'
     rarity: 0
     weight: 1
     basePrice: 10
@@ -27,6 +30,9 @@ MonoBehaviour:
     description: An elixir of extraordinary potency, capable of restoring a substantial
       50 Health Points
     sprite: {fileID: -1777560307, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_110'
     rarity: 2
     weight: 1
     basePrice: 30
@@ -37,6 +43,9 @@ MonoBehaviour:
   - name: Stamina Potion
     description: A basic potion that restores 10 Stamina Points
     sprite: {fileID: -1550126207, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_108'
     rarity: 0
     weight: 1
     basePrice: 10
@@ -48,6 +57,9 @@ MonoBehaviour:
     description: An elixir of extraordinary potency, capable of restoring a substantial
       50 Stamina Points
     sprite: {fileID: 1588562393, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_112'
     rarity: 2
     weight: 1
     basePrice: 30
@@ -58,6 +70,9 @@ MonoBehaviour:
   - name: Mana Potion
     description: A basic potion that restores 10 Mana Points
     sprite: {fileID: 280656700, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_107'
     rarity: 0
     weight: 1
     basePrice: 10
@@ -69,6 +84,9 @@ MonoBehaviour:
     description: An elixir of extraordinary potency, capable of restoring a substantial
       50 Mana Points
     sprite: {fileID: 195977504, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_111'
     rarity: 2
     weight: 1
     basePrice: 30
@@ -80,10 +98,13 @@ MonoBehaviour:
   - name: Wooden Sword
     description: A humble sword crafted from sturdy oak, perfect for novice adventurers.
     sprite: {fileID: -1638557914, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_48'
     rarity: 0
     weight: 2
     basePrice: 5
-    isQuestItem: 1
+    isQuestItem: 0
     damage: 8
     attackSpeed: 1.2
     range: 1.5
@@ -91,6 +112,9 @@ MonoBehaviour:
     description: A finely forged sword made of high-quality steel, capable of slicing
       through foes with ease.
     sprite: {fileID: -405833891, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_49'
     rarity: 1
     weight: 3
     basePrice: 25
@@ -103,6 +127,9 @@ MonoBehaviour:
     description: Sturdy and flexible, this leather armor provides basic protection
       without compromising mobility.
     sprite: {fileID: 272425204, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_82'
     rarity: 0
     weight: 5
     basePrice: 15
@@ -112,6 +139,9 @@ MonoBehaviour:
     description: Imposing and resilient, this steel armor offers substantial protection
       on the battlefield.
     sprite: {fileID: -98630094, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+    spriteAssetPath: Assets/InventorySystem/Resources/#2 - Transparent Icons & Drop
+      Shadow.png
+    spriteName: '#2 - Transparent Icons & Drop Shadow_83'
     rarity: 1
     weight: 15
     basePrice: 50
