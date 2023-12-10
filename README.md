@@ -8,4 +8,4 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/rafay-pk/InventorySystem?)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rafay-pk/InventorySystem?)
 
-You can download the `.unitypackage` from the releases page =>
+You can download the latest `.unitypackage` from the releases page =>
