@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4321986177653100834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4637374854713760205}
+  - component: {fileID: 2603618816857476195}
+  - component: {fileID: 8038912924293794875}
+  m_Layer: 5
+  m_Name: '[Inventory UI]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4637374854713760205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321986177653100834}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2603618816857476195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321986177653100834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 314e7395c6a81154b9c99519f1b1e3b4, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 0}
+  m_SortingOrder: 0
+--- !u!114 &8038912924293794875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321986177653100834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f84ec3c1a1d74b2691a4377322d44e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  document: {fileID: 2603618816857476195}
+  styleSheet: {fileID: 7433441132597879392, guid: 4ebde0927b0631540baf2fbcac394d87, type: 3}
+  font: {fileID: 12800000, guid: 84df80e34e969654091db7a0adc1e06e, type: 3}
+  filters:
+  - name: All
+    sprite: {fileID: 21300000, guid: 6cde808d1f5a64045b5161d849d3e866, type: 3}
+  - name: Weapons
+    sprite: {fileID: -405833891, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+  - name: Armor
+    sprite: {fileID: -98630094, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}
+  - name: Potions
+    sprite: {fileID: -1607288612, guid: 681a3e18ba1531f4fbaa0439b1808c05, type: 3}

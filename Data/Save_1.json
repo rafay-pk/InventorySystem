@@ -1,0 +1,48 @@
+{
+    "playerID": 1,
+    "maxCount": 10,
+    "inventoryItems": [
+        {
+            "item": {
+                "name": "Health Potion",
+                "description": "",
+                "sprite": {
+                    "instanceID": 0
+                },
+                "rarity": 3,
+                "weight": 2.0,
+                "basePrice": 10.0,
+                "isQuestItem": false
+            },
+            "count": 4
+        },
+        {
+            "item": {
+                "name": "Steel Armor",
+                "description": "",
+                "sprite": {
+                    "instanceID": 27860
+                },
+                "rarity": 0,
+                "weight": 0.0,
+                "basePrice": 0.0,
+                "isQuestItem": false
+            },
+            "count": 2
+        },
+        {
+            "item": {
+                "name": "Bronze Sword",
+                "description": "",
+                "sprite": {
+                    "instanceID": 0
+                },
+                "rarity": 0,
+                "weight": 0.0,
+                "basePrice": 0.0,
+                "isQuestItem": false
+            },
+            "count": 1
+        }
+    ]
+}

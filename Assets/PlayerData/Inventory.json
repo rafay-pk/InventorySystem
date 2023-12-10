@@ -1,0 +1,147 @@
+{
+    "selectedSortingType": 0,
+    "selectedAscendingValue": true,
+    "_capacity": 100.0,
+    "inventoryItems": [
+        {
+            "item": {
+                "name": "Wooden Sword",
+                "description": "A humble sword crafted from sturdy oak, perfect for novice adventurers.",
+                "sprite": {
+                    "instanceID": 30990
+                },
+                "rarity": 0,
+                "weight": 2.0,
+                "basePrice": 5.0,
+                "isQuestItem": true
+            },
+            "count": 25
+        },
+        {
+            "item": {
+                "name": "Steel Armor",
+                "description": "Imposing and resilient, this steel armor offers substantial protection on the battlefield.",
+                "sprite": {
+                    "instanceID": 29304
+                },
+                "rarity": 1,
+                "weight": 15.0,
+                "basePrice": 50.0,
+                "isQuestItem": false
+            },
+            "count": 2
+        },
+        {
+            "item": {
+                "name": "Health Potion",
+                "description": "A basic potion that restores 10 Health Points",
+                "sprite": {
+                    "instanceID": 30682
+                },
+                "rarity": 0,
+                "weight": 1.0,
+                "basePrice": 10.0,
+                "isQuestItem": false
+            },
+            "count": 5
+        },
+        {
+            "item": {
+                "name": "Mana Potion",
+                "description": "A basic potion that restores 10 Mana Points",
+                "sprite": {
+                    "instanceID": 31098
+                },
+                "rarity": 0,
+                "weight": 1.0,
+                "basePrice": 10.0,
+                "isQuestItem": false
+            },
+            "count": 5
+        },
+        {
+            "item": {
+                "name": "Stamina Potion",
+                "description": "A basic potion that restores 10 Stamina Points",
+                "sprite": {
+                    "instanceID": 31100
+                },
+                "rarity": 0,
+                "weight": 1.0,
+                "basePrice": 10.0,
+                "isQuestItem": false
+            },
+            "count": 5
+        },
+        {
+            "item": {
+                "name": "Super Health Potion",
+                "description": "An elixir of extraordinary potency, capable of restoring a substantial 50 Health Points",
+                "sprite": {
+                    "instanceID": 31104
+                },
+                "rarity": 2,
+                "weight": 1.0,
+                "basePrice": 30.0,
+                "isQuestItem": false
+            },
+            "count": 2
+        },
+        {
+            "item": {
+                "name": "Super Mana Potion",
+                "description": "An elixir of extraordinary potency, capable of restoring a substantial 50 Mana Points",
+                "sprite": {
+                    "instanceID": 31106
+                },
+                "rarity": 2,
+                "weight": 1.0,
+                "basePrice": 30.0,
+                "isQuestItem": false
+            },
+            "count": 2
+        },
+        {
+            "item": {
+                "name": "Super Stamina Potion",
+                "description": "An elixir of extraordinary potency, capable of restoring a substantial 50 Stamina Points",
+                "sprite": {
+                    "instanceID": 31108
+                },
+                "rarity": 2,
+                "weight": 1.0,
+                "basePrice": 30.0,
+                "isQuestItem": false
+            },
+            "count": 2
+        },
+        {
+            "item": {
+                "name": "Steel Sword",
+                "description": "A finely forged sword made of high-quality steel, capable of slicing through foes with ease.",
+                "sprite": {
+                    "instanceID": 29302
+                },
+                "rarity": 1,
+                "weight": 3.0,
+                "basePrice": 25.0,
+                "isQuestItem": false
+            },
+            "count": 2
+        },
+        {
+            "item": {
+                "name": "Leather Armor",
+                "description": "Sturdy and flexible, this leather armor provides basic protection without compromising mobility.",
+                "sprite": {
+                    "instanceID": 31054
+                },
+                "rarity": 0,
+                "weight": 5.0,
+                "basePrice": 15.0,
+                "isQuestItem": false
+            },
+            "count": 2
+        }
+    ]
+}

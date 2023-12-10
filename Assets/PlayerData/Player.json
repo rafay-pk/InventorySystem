@@ -1,0 +1,34 @@
+{
+    "inventory": {
+        "instanceID": -39834
+    },
+    "equippedWeapon": {
+        "name": "Wooden Sword",
+        "description": "A humble sword crafted from sturdy oak, perfect for novice adventurers.",
+        "sprite": {
+            "instanceID": 30990
+        },
+        "rarity": 0,
+        "weight": 2.0,
+        "basePrice": 5.0,
+        "isQuestItem": true,
+        "damage": 8.0,
+        "attackSpeed": 1.2000000476837159,
+        "range": 1.5
+    },
+    "equippedArmor": {
+        "name": "",
+        "description": "",
+        "sprite": {
+            "instanceID": 0
+        },
+        "rarity": 0,
+        "weight": 0.0,
+        "basePrice": 0.0,
+        "isQuestItem": false,
+        "defense": 0.0
+    },
+    "health": 0.0,
+    "stamina": 0.0,
+    "mana": 0.0
+}
